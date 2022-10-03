@@ -2,33 +2,82 @@
 <html lang="en">
 <title>My first webpage</title>
 <html>
+
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <title>Sajan Hayer Website</title>
   </head>
-  <body>
-    <h1>Sajan Hayer</h1>
-    <p>Hi my name is <Strong> Sajan Hayer</Strong>. I am a third year software student that is currently at the university of Calgary
-        <strong>damn</strong> a <em>wow</em> page.</p>
+
+
+  <body style="background-color: #1f2937;">
+    <!-- top section -->
+    <div class= alert-text id = "TOP" style="font-size: 33px;
+    text-align: center; position: relative; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      <h1>Sajan Hayer</h1>
+      <p style="border-bottom: 3px solid white;">Hi my name is <Strong> Sajan Hayer</Strong>. I am a third year software engineering
+      student that is currently at the university of Calgary. </p>
+    <div style="margin-top: -20px; margin-bottom: 10px; display: flex; justify-content: flex-start;">
+      <a style="font-size: 15px" href="https://github.com/SajanHayer"> Heres the link to my Github</a>
+    </div>  
+    </div>
+
+    <!--  Parent div-->
+    <div class="flex-container" style="margin-top: 10px;">
+      <div></div>
+      <!-- Project 1 -->
+      <div class="Project" id= "Project-2">
+        <h1><strong> HTML Fighting Game </strong></h1>
+        <p>A small two player 2d fighting game that I made. It uses HTML canvas for this game to work.
+          It's has a couple bugs and kinks to fix out but most of the fundamentals are done. There are two characters
+          to use right now and I hope to add more in that future!
+        </p>
+    
+        <a style="color: rgb(80, 26, 80);" href="./Fighting Game/index.html">Click Here to Play</a>
+      </div>
+      
+      <div class="pictures" style="height: fit-content; width: auto; align-items: center;">
+      <iframe src="https://giphy.com/embed/pYSJn0CF6DjqYbDjN2" width="320px" height="180px" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      </div>
+      <div></div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="flex-container">
+      <div></div>
+      <div class="Project" id="Project-2"  >
+        <h1><strong>HYL Hackthon Submisson</strong></h1>
+        <p>This was a partner hackathon and was done with Manraj Singh. 
+        The concept behind this was too create a code project that would be able to teach people about coding. 
+        We decided to create this using Java that would teach people about java.
+         It's not fully complete but has most of the basic components behind it.</p>
+        <a href="https://youtu.be/lftKjarXxKQ">Link to watch a video about the hackathon</a>
+      </div>
+      <div class="pictures">
+        <img src = "./images/HYLSCREEN.png" width="320px" height="180px">
+      </div>
+      <div></div>
+    </div>
+
+    <!-- Project 3
+    <div class="flex-container">
+        <div></div>
+      <div class="Project"  id="Project-2" >
+        <h1>Food Hamper System</h1>
+        <p>GITHUBCOMMENT HERE</p>
+      </div>
+      
+      <div class="pictures">
+        <img src = "./images/Tanjiro.png">
+      </div>
+      <div></div>
+    </div> -->
+    <p>This website is still a work in progress</p>
+
   </body>
-
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-  </ul>
-
-  <!-- abosulute link-->
-  <a href="https://www.theodinproject.com/about">click me</a>
-
-  <a href="./Fighting Game/index.html">click MEMME
-  </a>
-
-<img src = "./images/Tanjiro.png">
-
-
-
-
 </html>
 
 

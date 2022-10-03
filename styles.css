@@ -1,0 +1,56 @@
+div {
+    color: white;
+  }
+  
+.alert-text {
+    color: #f9faf8;
+    font-family: 'Inter Tight', sans-serif;}
+
+
+
+
+* {
+    /* border: 2px solid red; */
+    font-family: 'Inter Tight', sans-serif;
+    color: #f9faf8;
+}
+
+.flex-container {
+     display: flex; 
+     margin-bottom: 50px;
+     
+}
+  
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+    flex: 0.5; 
+    align-items: center;
+
+}
+
+#Project-2{
+    flex: 2;
+}
+
+.Project{
+    flex: 2;
+    color: red;
+    border-left: 4px solid white;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding-left: 16px;
+    background-color: #375279;
+    color: #cbd1c5;
+
+}
+.pictures{
+    border-top: 4px solid white; 
+    border-right: 4px solid white; 
+    border-bottom: 4px solid white;
+    padding: 16px;
+    width: 320px;
+    height: 180px;
+    background-color: #375279;
+    
+
+}
